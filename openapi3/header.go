@@ -3,7 +3,7 @@ package openapi3
 import (
 	"context"
 
-	"github.com/atlnhq/kin-openapi/jsoninfo"
+	"github.com/atlanhq/kin-openapi/jsoninfo"
 )
 
 type Header struct {

@@ -14,7 +14,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/atlnhq/kin-openapi/openapi3"
+	"github.com/atlanhq/kin-openapi/openapi3"
 )
 
 // ParseErrorKind describes a kind of ParseError.

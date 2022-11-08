@@ -5,8 +5,8 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/atlnhq/kin-openapi/openapi3"
-	"github.com/atlnhq/kin-openapi/openapi3filter"
+	"github.com/atlanhq/kin-openapi/openapi3"
+	"github.com/atlanhq/kin-openapi/openapi3filter"
 	"github.com/stretchr/testify/require"
 )
 

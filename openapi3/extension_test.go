@@ -1,10 +1,11 @@
 package openapi3_test
 
 import (
-	"github.com/atlnhq/kin-openapi/jsoninfo"
-	"github.com/atlnhq/kin-openapi/openapi3"
-	"github.com/stretchr/testify/assert"
 	"testing"
+
+	"github.com/atlanhq/kin-openapi/jsoninfo"
+	"github.com/atlanhq/kin-openapi/openapi3"
+	"github.com/stretchr/testify/assert"
 )
 
 func TestExtensionProps_EncodeWith(t *testing.T) {

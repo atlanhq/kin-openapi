@@ -7,8 +7,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/atlnhq/kin-openapi/jsoninfo"
-	"github.com/atlnhq/kin-openapi/openapi3"
+	"github.com/atlanhq/kin-openapi/jsoninfo"
+	"github.com/atlanhq/kin-openapi/openapi3"
 )
 
 // CycleError indicates that a type graph has one or more possible cycles.

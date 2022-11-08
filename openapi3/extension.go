@@ -1,7 +1,7 @@
 package openapi3
 
 import (
-	"github.com/atlnhq/kin-openapi/jsoninfo"
+	"github.com/atlanhq/kin-openapi/jsoninfo"
 )
 
 // ExtensionProps provides support for OpenAPI extensions.

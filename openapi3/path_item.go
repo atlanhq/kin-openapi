@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/atlnhq/kin-openapi/jsoninfo"
+	"github.com/atlanhq/kin-openapi/jsoninfo"
 )
 
 type PathItem struct {

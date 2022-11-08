@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/atlnhq/kin-openapi/jsoninfo"
+	"github.com/atlanhq/kin-openapi/jsoninfo"
 )
 
 // Encoding is specified by OpenAPI/Swagger 3.0 standard.

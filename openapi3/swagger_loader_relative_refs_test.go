@@ -6,7 +6,7 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/atlnhq/kin-openapi/openapi3"
+	"github.com/atlanhq/kin-openapi/openapi3"
 	"github.com/stretchr/testify/require"
 )
 

@@ -7,8 +7,8 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/atlnhq/kin-openapi/openapi2"
-	"github.com/atlnhq/kin-openapi/openapi3"
+	"github.com/atlanhq/kin-openapi/openapi2"
+	"github.com/atlanhq/kin-openapi/openapi3"
 )
 
 // ToV3Swagger converts an OpenAPIv2 spec to an OpenAPIv3 spec
