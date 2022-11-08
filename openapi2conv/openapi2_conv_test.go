@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/getkin/kin-openapi/openapi2"
-	"github.com/getkin/kin-openapi/openapi3"
+	"github.com/atlnhq/kin-openapi/openapi2"
+	"github.com/atlnhq/kin-openapi/openapi3"
 	"github.com/stretchr/testify/require"
 )
 
