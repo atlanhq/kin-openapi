@@ -808,6 +808,11 @@ func UnregisterBodyDecoder(contentType string) {
 // The function returns ParseError when a body is invalid.
 func decodeBody(body io.Reader, header http.Header, schema *openapi3.SchemaRef, encFn EncodingFn) (interface{}, error) {
 	contentType := header.Get(http.CanonicalHeaderKey("Content-Type"))
+	if contentType == "" {
+		if _, ok := body.(*multipart.Part); ok {
+			contentType = "text/plain"
+		}
+	}
 	mediaType := parseMediaType(contentType)
 	decoder, ok := bodyDecoders[mediaType]
 	if !ok {
