@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/atlanhq/kin-openapi/jsoninfo"
-	"github.com/atlanhq/kin-openapi/openapi3"
+	"github.com/getkin/kin-openapi/jsoninfo"
+	"github.com/getkin/kin-openapi/openapi3"
 )
 
 type Simple struct {

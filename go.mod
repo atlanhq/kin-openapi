@@ -1,4 +1,4 @@
-module github.com/atlanhq/kin-openapi
+module github.com/getkin/kin-openapi
 
 go 1.14
 

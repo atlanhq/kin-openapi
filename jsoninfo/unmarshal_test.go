@@ -4,7 +4,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/atlanhq/kin-openapi/jsoninfo"
+	"github.com/getkin/kin-openapi/jsoninfo"
 	"github.com/stretchr/testify/assert"
 )
 

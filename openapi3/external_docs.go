@@ -1,7 +1,7 @@
 package openapi3
 
 import (
-	"github.com/atlanhq/kin-openapi/jsoninfo"
+	"github.com/getkin/kin-openapi/jsoninfo"
 )
 
 // ExternalDocs is specified by OpenAPI/Swagger standard version 3.0.

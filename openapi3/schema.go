@@ -12,7 +12,7 @@ import (
 	"strconv"
 	"unicode/utf16"
 
-	"github.com/atlanhq/kin-openapi/jsoninfo"
+	"github.com/getkin/kin-openapi/jsoninfo"
 )
 
 var (

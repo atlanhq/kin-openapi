@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/atlanhq/kin-openapi/openapi3gen"
+	"github.com/getkin/kin-openapi/openapi3gen"
 	"github.com/stretchr/testify/require"
 )
 

@@ -8,7 +8,7 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/atlanhq/kin-openapi/openapi3"
+	"github.com/getkin/kin-openapi/openapi3"
 	"github.com/stretchr/testify/require"
 )
 
